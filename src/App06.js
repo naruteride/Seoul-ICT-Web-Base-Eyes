@@ -48,7 +48,7 @@ const Ball = styled.div`
 `;
 
 function App() {
-  return (
+  return <>
     <Eyes>
       <Eye>
         <Ball />
@@ -57,7 +57,10 @@ function App() {
         <Ball />
       </Eye>
     </Eyes>
-  );
+    <div>
+      두 눈을 깜빡입니다!
+    </div>
+  </>;
 }
 
 export default App;
